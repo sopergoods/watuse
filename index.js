@@ -28,7 +28,7 @@ window.addEventListener("load", () =>{
 function getUsers(){
     let html=""
 
-    fetch("https://bscs3a-crud-api.onrender.com/api/members" , {mode: "cors"})
+    fetch("https://bscs3a-crud-apii.onrender.com/api/members" , {mode: "cors"})
     //fetch("http://localhost:5000/api/members" , {mode: "cors"})
     
     .then((response) =>{
